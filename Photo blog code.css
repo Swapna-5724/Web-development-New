@@ -1,0 +1,22 @@
+img {
+    width: 30%;
+    margin: 10px;
+    /* margin: cal(10%6); */
+
+}
+
+nav {
+    /* text-transform: uppercase; */
+    font-family: 'Releway', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    /* margin: cal(10%6); */
+    margin-left: calc(10%/6);
+    padding: 1.5em,;
+}
+
+/* 30 + 30 + 30
+
+ 10 -> Remaining */

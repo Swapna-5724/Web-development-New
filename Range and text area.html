@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Range and text area.css">
+</head>
+<body>
+    <form action="/tacos">
+        <p>
+            <label for="username">Enter a Username:</label>
+            <input type="username" type="text" placeholder="username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter a password:</label>
+            <input type="password" placeholder="password" id="password" name="password">
+        </p>
+        <p>
+            <label for="color">Enter a Color:</label>
+            <input type="color" name="color" id="color">
+        </p>
+        <p>
+            <!-- Alternative way to label an input (less common) -->
+             <label>
+                Enter a Number:
+                <input type="number" placeholder="enter a number" name="num" min="1" max="1000" step="2">
+             </label>
+        </p>
+        <!-- this button doesn't submit the form b/c of the "type" attribute -->
+         <button type="button">Regular button (won't submit)</button>
+         <!-- this button submits the form! -->
+          <button>Submit!!!</button>
+          <!-- So does this one: -->
+           <input type="submit" value="Click Me!">
+    </form>
+    <hr>
+    <label for="agree">I agree to everything</label>
+    <p>
+        <label for="xs">XS:</label>
+        <input type="radio" name="size" id="xs" value="xs">
+        <label for="s">S</label>
+        <input type="radio" name="size" id="s" value="s">
+        <label for="m">M</label>
+        <input type="radio" name="size" id="m" value="m">
+    </p>
+    <p>
+        <label for="meal">Please Select an Entree</label>
+        <select name="meal" id="meal">
+            <option value="fish">Fish</option>
+            <option value="veg">vegetarian</option>
+            <option value="steak">Steak</option>
+        </select>
+    </p>
+    <p>
+        <label for="cheese">Amout of cheeese</label>
+        <input type="range" id="cheese" min="1" max="10" value="75" step="5" name="cheese_level">
+    </p>
+
+    <p>
+        <label for="request">Any Special Requests?</label>
+        <br>
+        <textarea name="request" id="request" rows="10" col="40" placeholder="Type something here"></textarea>
+    </p>
+    <button>Submit</button>
+</body>
+</html>

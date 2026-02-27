@@ -1,0 +1,27 @@
+html{
+    font-size: 10px;
+}
+#percentages {
+    background-color: #6d6875;
+    width: 800px;
+    height: 800px;
+}
+
+#percentages div{
+    background-color: #e5989b;
+    width: 70%;
+    height: 20%;
+}
+#rems h2{
+    font-size: 3rem;
+}
+#rems h3{
+    font-size: 2rem;
+}
+#rem ul{
+    font-size: 0.8rem;
+}
+
+#rems button{
+    font-size: 1.5rem;
+}
